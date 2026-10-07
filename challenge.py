@@ -1,0 +1,6 @@
+seconds = int(input("Enter seconds: "))
+hours = seconds // 3600
+remaining = seconds % 3600
+minutes = remaining // 60
+seconds = remaining % 60
+print(f"{hours:02}:{minutes:02}:{seconds:02}")

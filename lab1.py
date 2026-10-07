@@ -19,4 +19,4 @@ tax=subtotal*tax_rate/100
 print(f"Tax: ${tax:.2}")
 
 total=subtotal+tax
-print(f"Total: ${total:.2}")
+print(f"Total: ${total:.3}")
